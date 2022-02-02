@@ -1,2 +1,3 @@
 # dataFetch
-Uses useEffect and useReduce to manage fetch of online data
+
+Use React useEffect and useReduce to manage fetch of online data
