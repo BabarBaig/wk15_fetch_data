@@ -1,2 +1,2 @@
-# wk15_Fetch_Data
-Fetch data
+# dataFetch
+Uses useEffect and useReduce to manage fetch of online data
