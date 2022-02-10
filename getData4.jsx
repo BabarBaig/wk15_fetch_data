@@ -108,9 +108,9 @@ function App() {
       {isError && <div>Something went wrong ...</div>}
 
       {isLoading ? (<div>Loading ...</div>) : (
-          <ul>
+          <ul class="list-group">
             {page.map(item => (
-              <li key={item.objectID}>
+              <li class="list-group-item" key={item.objectID}>
                 <a href={item.url}>{item.title}</a>
               </li>
             ))}
